@@ -35,10 +35,12 @@ git clone https://github.com/Ucuetis/Projet_6_PIIQUANTE.git
 et renomez le fichier .env2 en .env et vérifiez les variables :
 
 Pour ce projet, le numéro de port attribué au serveur est défini sur 3000.
-Pour la variable DATABASE_URLvérifier de bien entrée votre <username>, <password> et <clusterName> correctement.
-La variable "SECRET_KEY" peut être définie avec n'importe quelle chaîne de caractères (ici Cle_Secrete) pour l'encryption des tokens.
 PORT="3000"
+
+Pour la variable DATABASE_URLvérifier de bien entrée votre <username>, <password> et <clusterName> correctement.
 DATABASE_URL="mongodb+srv://<username>:<password>@<clusterName>.mongodb.net/?retryWrites=true&w=majority"
+
+La variable "SECRET_KEY" peut être définie avec n'importe quelle chaîne de caractères (ici Cle_Secrete) pour l'encryption des tokens.
 SECRET_KEY=Cle_Secrete
 
 
