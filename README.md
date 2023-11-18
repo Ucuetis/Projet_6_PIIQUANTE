@@ -38,9 +38,9 @@ Pour ce projet, le numéro de port attribué au serveur est défini sur 3000.
 
 PORT="3000"
 
-Pour la variable DATABASE_URLvérifier de bien entrée votre "username", "password" et "clusterName" correctement sans les "".
+Pour la variable DATABASE_URLvérifier de bien entrée votre {username}, {password} et {clusterName} correctement sans les {}.
 
-DATABASE_URL="mongodb+srv://"username":"password"@"clusterName".mongodb.net/?retryWrites=true&w=majority"
+DATABASE_URL="mongodb+srv://{username}:{password}@{clusterName}.mongodb.net/?retryWrites=true&w=majority"
 
 La variable "SECRET_KEY" peut être définie avec n'importe quelle chaîne de caractères (ici Cle_Secrete) pour l'encryption des tokens.
 
